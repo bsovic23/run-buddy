@@ -13,6 +13,10 @@ A website that offers fitness training services. A user can immediately fill out
 * sequelize
 * dotenv
 
+## Future Developments
+
+* Develop a server that can actually accept data
+
 ## Deployed Application
 
 The deployed application can be accessed at:
