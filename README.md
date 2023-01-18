@@ -8,10 +8,15 @@ A website that offers fitness training services. A user can immediately fill out
 
 * HTML
 * CSS
+* express
+* mysql
+* sequelize
+* dotenv
 
 ## Deployed Application
 
 The deployed application can be accessed at:
+
 https://bsovic23.github.io/run-buddy/
 
 ## Screenshots
