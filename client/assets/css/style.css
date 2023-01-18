@@ -289,6 +289,13 @@ section {
     color: #fce138;
   }
  
-  /* REACH OUT STYLES END */
 
-  /*Privacy Policy 1.7.6 */
+
+
+/* Submit Run Form */
+.hero .run-form input {
+    display: block;
+    margin: 5px;
+}
+
+ 

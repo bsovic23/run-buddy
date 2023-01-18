@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>RUN-BUDDY</title>
+        <meta CHARSET="UTF-8">
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    
+    <body>
+        <!--Navigation-->
+        <header>
+            <h1>
+                <a href="/">RUN BUDDY</a>
+            </h1>
+        </header>
+
+        <!-- hero/jumbotron-->
+        <section class="hero">
+            <div class="hero-form">
+                <h3>Submit Your Run</h3>
+                <p>Fill out this form to log your run on the dashboard and let everyone see those results!</p>
+                <!--Submit Run Form-->
+                <form class="run-form">
+                    <label for="date">Completed Run Date:</label>
+                    <input type="date" id="date" name="run-date"/>
+
+                    <label for="run-name">Name of Run Workout:</label>
+                    <input type="text" id="run-name" name="run-name"/>
+
+                    <label for="calories">Calories Burned:</label>
+                    <input type="number" id="calories" name="run-calories"/>
+
+                    <label for="distance">Distance of Run (miles):</label>
+                    <input type="text" id="distance" name="run-distance"/>
+
+                    <label for="location">Location of Run:</label>
+                    <input type="text" id="location" name="run-location"/>
+
+                    <label for="notes">Run Notes:</label>
+                    <input type="notes" id="notes" name="run-notes"/>
+                   
+                    <button type="submit" id="submit-run">
+                       Submit Your Run!
+                    </button>
+                </form>
+            </div>
+        </section>
+      <!--Footer-->
+      <footer>
+        <h2>❤️ Made with love by Run Buddy.</h2>
+        <div>
+            <a href="privacy-policy.html">Read Our Privacy Policy</a><br />
+            &copy; 2019 Run Buddy Inc.
+        </div>
+    </footer>
+
+</body>
+</html>
