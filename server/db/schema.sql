@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS runbuddy;
+
+CREATE DATABASE runbuddy;
